@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SungWood Furniture</title>
+    <!-- normalize css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom utilities css -->
+    <link rel="stylesheet" href="css/utilities.css" />
+    <!-- custom main css -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="icon" type="image/png" href="images/favicfon.png" />
+  </head>
+  <body>
+    <div class="holder">
+      <!-- navbar -->
+      <nav class="navbar bg-brown flex">
+        <d class="container flex">
+          <!-- <div><img alt="Logo" src="images/logo.png"></div> -->
+          <div class="toggler-and-category bg-brown text-white flex">
+            <button type="button" class="btn navbar-show-btn text-white">
+              <i class="fas fa-bars"></i>
+            </button>
+            <!-- 
+            <div class="category-list">
+              <span>Category</span>
+              <button type="button" class="btn category-toggler-btn text-white">
+                <i class="fas fa-circle-arrow-down"></i>
+              </button>
+            </div>
+            -->
+
+            <!-- side navbar -->
+            <ul id="side-navbar" class="bg-white text-uppercase">
+              <button type="button" class="btn navbar-hide-btn text-dark">
+                <i class="fas fa-times"></i>
+              </button>
+              <li><a href="#">home</a></li>
+              <li><a href="#">featured</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">shop</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+
+          <!-- main navigation list -->
+          <div class="navbar-collapse flex">
+            <!-- nav list -->
+            <ul class="navbar-nav text-uppercase">
+              <li class="nav-item">
+                <a href="#" class="nav-link active-link">
+                  <span class="nav-link-text">home</span><!-- 
+                  <span class="dropdown-icon">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>-->
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="nav-link-text">featured</span><!-- 
+                  <span class="dropdown-icon">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>-->
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="nav-link-text">shop</span><!-- 
+                  <span class="dropdown-icon">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>-->
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="nav-link-text">about</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="nav-link-text">contact</span>
+                </a>
+              </li>
+            </ul>
+            <!-- end of nav list -->
+
+            <!-- account icons -->
+            <div class="account-info">
+              <a href="#" class="btn text-white">
+                <i class="fas fa-person"></i>
+              </a>
+              <a href="#" class="btn text-white">
+                <i class="fas fa-shopping-basket"></i>
+              </a>
+            </div>
+            <!-- end of account icons -->
+          </div>
+          <!-- end of main navigation list -->
+        </div>
+      </nav>
+      <!-- end of navbar -->
+
+      <!-- header -->
+      <header class="header bg-light-brown flex" id="home">
+        <div class="container">
+          <div class="header-content grid text-center">
+            <div class="header-left">
+              <h1>SungWood Home Furniture</h1>
+              <p class="text">
+                💥💥NEW MODERN SOFAS FOR YOU💥💥
+                This is what your Living Room needs. Best and Quality sofas that Matches Your Living Room perfectly.
+                CALL: 0727772107
+              </p>
+              <a href="#" class="btn-header text-white bg-brown">shop now</a>
+            </div>
+
+            <div class="header-right">
+              <img src="images/header-sofa-img.png" />
+            </div>
+            <img src="images/header-shape.png" class="header-shape" />
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+
+      <!-- main content -->
+      <main>
+        <!-- top new products section -->
+        <section
+          id="new-products"
+          class="new-products py bg-light-grey-color-shade"
+        >
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>top new products</h2>
+              <p class="lead">
+                Checkout Our New Products.
+              </p>
+              <div class="line"></div>
+            </div>
+
+            <div class="new-products-content grid">
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="images/new_product_img_1.png" alt="new product" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>in stock</span>
+                  </div>
+                  <p class="name">Recliner Sofas</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 50,000</span>
+                    <span class="new text-brown">ksh 35,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="images/new_product_img_2.png" alt="new product" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>in stock</span>
+                  </div>
+                  <p class="name">New Modern Sofas (5 seater)</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 45,000</span>
+                    <span class="new text-brown">ksh 32,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="images/new_product_img_3.png" alt="new product" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>in stock</span>
+                  </div>
+                  <p class="name">Chester Beds</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 24,000</span>
+                    <span class="new text-brown">ksh 18,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="new-product-item">
+                <div class="image">
+                  <img src="images/new_product_img_4.png" alt="new product" />
+                  <span
+                    class="badge bg-brown text-white text-center text-uppercase"
+                    >sale</span
+                  >
+                </div>
+                <div class="info">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                    <span>in stock</span>
+                  </div>
+                  <p class="name">L Seaters</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 30,000</span>
+                    <span class="new text-brown">ksh 25,000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of top new products section -->
+
+        <!-- category section -->
+        <section class="category py bg-light-brown" id="category">
+          <div class="container">
+            <div class="category-content grid">
+              <div class="category-item">
+                <img src="images/category_img_1.png" />
+                <div class="category-badge bg-white text-dark flex">
+                  Two Seater
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="images/category_img_2.png" />
+                <div class="category-badge bg-white text-dark flex">
+                  Wall Unit
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="images/category_img_3.png" />
+                <div class="category-badge bg-white text-dark flex">
+                  Chester L seat
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="images/category_img_4.png" />
+                <div class="category-badge bg-white text-dark flex">
+                  Relaxing 
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="images/category_img_5.png" />
+                <div class="category-badge bg-white text-dark flex">
+                  Single 
+                </div>
+              </div>
+              <div class="category-item">
+                <img src="images/category_img_6.png" />
+                <div class="category-badge bg-white text-dark flex">
+                  Sofa Set
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of category section -->
+
+        <!-- featured deals section -->
+        <section
+          class="featured-deals bg-light-grey-color-shade py"
+          id="featured-deals"
+        >
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>featured deals</h2>
+              <p class="lead">
+                Get The Best Deals Today!.
+              </p>
+              <div class="line"></div>
+            </div>
+
+            <div class="featured-deals-content grid">
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="images/featured_deals_img_1.png" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <p class="name">Two Seater</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 15,000</span>
+                    <span class="new text-brown">ksh 11,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="images/featured_deals_img_2.png" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <p class="name">Adjustable Bed</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 15,000</span>
+                    <span class="new text-brown">ksh 10,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="images/featured_deals_img_3.png" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <p class="name">Modern Ward-drobe</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 20,000</span>
+                    <span class="new text-brown">ksh 15,000</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="featured-deals-item">
+                <div class="image">
+                  <img src="images/featured_deals_img_4.png" />
+                </div>
+                <div class="info bg-white">
+                  <div class="ratings text-grey">
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-brown"></i>
+                    <i class="fas fa-star text-light-grey"></i>
+                  </div>
+                  <p class="name">Classy Stool</p>
+                  <div class="price">
+                    <span class="old text-grey">ksh 5,000</span>
+                    <span class="new text-brown">KSH 3,000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of featured deals section -->
+
+        <!-- catalog section -->
+        <section class="catalog bg-brown" id="catalog">
+          <div class="catalog-content grid text-center">
+            <div class="catalog-left"></div>
+            <div class="catalog-right text-white flex py">
+              <div class="section-title">
+                <h2>SungWood Home Furniture</h2>
+              </div>
+              <p class="text">
+                💥💥NEW MODERN SOFAS FOR YOU💥💥
+                This is what your Living Room needs. Best and Quality sofas that Matches Your Living Room perfectly.
+                CALL/WHATSAPP: 0727772107
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- end of catalog section -->
+
+
+        <!-- newsletter section -->
+        <section
+          class="newsletter py bg-light-grey-color-shade"
+          id="newsletter"
+        >
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>Newsletter</h2>
+              <p class="lead">
+                Subscribe To Our News Letter Today!
+              </p>
+              <div class="line"></div>
+            </div>
+
+            <div class="newsletter-content">
+              <form>
+                <div class="input-group flex">
+                  <input type="email" class="form-control bg-light-grey" />
+                  <button
+                    type="submit"
+                    class="btn bg-dark text-white text-uppercase"
+                  >
+                    subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- end of newsletter section -->
+      </main>
+      <!-- end of main content -->
+
+      <!-- footer -->
+      <footer class="footer bg-light-brown" id="footer">
+        <div class="container">
+          <div class="footer-content py grid text-center">
+            <div class="footer-item">
+              <h3>Sungwood Home Furniture</h3>
+              <p class="text">
+                Best customized sofas with all the aspects you want. Quality materials that will give you best service for a longer period of time.
+                CALL OR WHATSAPP : 0727772107
+              </p>
+              <ul class="social-links flex">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=61550637233116" class="flex"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com" class="flex"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-item">
+              <h3>Contact Us</h3>
+              <p class="text">Nairobi, Kenya</p>
+              <p class="text">Phone: 0727772107</p>
+              <p class="text">Email: jmusyoki473@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-end bg-dark">
+          <div class="container grid">
+            <p class="text text-white text-center">
+              &copy; 2023. Developed by Eyern
+            </p>
+            <div class="flex payment">
+              <img src="images/pay_1.png" />
+              <img src="images/pay_2.png" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end of footer -->
+    </div>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script
+    src="https://sleekflow.io/whatsapp-button.js"
+    async
+    onLoad="whatsappButton({
+    buttonName:'Message Us',
+    buttonIconSize: '22',
+    brandImageUrl:'https://sleekflow.io/static/images/sleekflow-icon.png',
+    buttonMargin:'true',
+    brandName:'SungWood Furniture',
+    brandSubtitleText:'Typically replies within minutes',
+    buttonSize:'regular',
+    callToAction:'Start Chat',
+    phoneNumber:'254759791855',
+    welcomeMessage:'Hi there 👋 How can we help you today?',
+    })"
+    >
+</script>
+  </body>
+</html>
